@@ -26,6 +26,15 @@ const Footer = () => (
       {/* <span className="new">New</span> */}
     </nav>
 
+{/* Forked by @jexxme */}
+    <div className="mt2 mb2">
+      forked by{' '}
+      <a className="author-link" href="https://github.com/jexxme">
+        @jexxme
+      </a>{' '}
+      ¬
+    </div>
+
     <div className="mt2 mb2">
       created by{' '}
       <a className="author-link" href="https://twitter.com/carbon_app">
