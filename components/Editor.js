@@ -13,7 +13,6 @@ import Overlay from './Overlay'
 import BackgroundSelect from './BackgroundSelect'
 import Carbon from './Carbon'
 import ExportMenu from './ExportMenu'
-import ShareMenu from './ShareMenu'
 import CopyMenu from './CopyMenu'
 import Themes from './Themes'
 import FontFace from './FontFace'
@@ -380,7 +379,6 @@ class Editor extends React.Component {
             </div>
             <div id="style-editor-button" />
             <div className="share-buttons">
-              <ShareMenu tweet={this.tweet} imgur={this.imgur} />
               <ExportMenu
                 onChange={this.updateSetting}
                 exportImage={this.exportImage}
