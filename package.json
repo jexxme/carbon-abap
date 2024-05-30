@@ -25,7 +25,8 @@
     "contrib:add": "all-contributors add",
     "contrib:build": "all-contributors generate",
     "cy:run": "cypress run --config-file cypress/config.json",
-    "cy:open": "cypress open --config-file cypress/config.json"
+    "cy:open": "cypress open --config-file cypress/config.json",
+    "postinstall": "yarn install highlightjs-sap-abap"
   },
   "dependencies": {
     "@next/bundle-analyzer": "latest",
