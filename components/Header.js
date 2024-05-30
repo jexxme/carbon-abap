@@ -11,7 +11,7 @@ const Header = ({ enableHeroText }) => (
         <h2 className="mt3">
           Create and share beautiful images of your ABAP code.
           <br />
-          Or any other code. We don&apos;'t judge.
+          Or any other code. We don&apos;t judge.
         </h2>
       ) : null}
     </div>
