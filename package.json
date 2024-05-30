@@ -47,6 +47,7 @@
     "firebase": "^8.9.1",
     "graphql": "^16.8.1",
     "highlight.js": "^10.7.2",
+    "highlightjs-sap-abap": "^0.3.0",
     "lodash.debounce": "^4.0.8",
     "lodash.omitby": "^4.6.0",
     "match-sorter": "^6.3.1",
